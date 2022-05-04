@@ -1,7 +1,7 @@
 package com.company;
 
 import java.util.Scanner;
-
+/*Given arrays String[]. Implement the method that returns the shortest String from it.*/
 public class Main {
 
     public static void main(String[] args) {
