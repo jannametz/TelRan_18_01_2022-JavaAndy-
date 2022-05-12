@@ -15,16 +15,16 @@ isPalindrome(“невод”) -> false*/
         isPolindrome(str);
     }
 
-        public static void isPolindrome(String str) {
+        public static void isPolindrome(String str) {   // Andy: лучше было бы метод делать boolean и возвращать true или false
         int i = 0;
         int j = str.length() - 1;
-        while(i < j) {
+        while(i < j) {  // в данном случае, когда встречный проход по массиву, немного лучше было бы назвать переменные l и r - сразу понятно, какая справа какая слева
 
             if (str.charAt(i) == str.charAt(j)) {
                 i++;
                 j--;
             } else {
-                break;
+                break;  // Andy: если бы метод был boolean, можно было бы return false сделать и исбавится от if в конце. 
             }
         }
         if (i >= j) {
