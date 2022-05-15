@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Fibonacci_29.03.2022 2/Fibonacci_29.03.2022 2.iml" filepath="$PROJECT_DIR$/Fibonacci_29.03.2022 2/Fibonacci_29.03.2022 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HM_TASK_22_0705.2022/HM_TASK_22_0705.2022.iml" filepath="$PROJECT_DIR$/HM_TASK_22_0705.2022/HM_TASK_22_0705.2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaAndy.iml" filepath="$PROJECT_DIR$/.idea/JavaAndy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/a_to_b_squares_28.03.2022/a_to_b_squares_28.03.2022.iml" filepath="$PROJECT_DIR$/a_to_b_squares_28.03.2022/a_to_b_squares_28.03.2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conversionKmHrtoMs/conversionKmHrtoMs.iml" filepath="$PROJECT_DIR$/conversionKmHrtoMs/conversionKmHrtoMs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/countdown_homework/countdown_homework.iml" filepath="$PROJECT_DIR$/countdown_homework/countdown_homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/get_sum_divisibly_by_num/get_sum_divisibly_by_num.iml" filepath="$PROJECT_DIR$/get_sum_divisibly_by_num/get_sum_divisibly_by_num.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework_day_ month_year_06.03.2022/homework_day_ month_year_06.03.2022.iml" filepath="$PROJECT_DIR$/homework_day_ month_year_06.03.2022/homework_day_ month_year_06.03.2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework_getDayOfWeek_06.03.2022/homework_getDayOfWeek_06.03.2022.iml" filepath="$PROJECT_DIR$/homework_getDayOfWeek_06.03.2022/homework_getDayOfWeek_06.03.2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework_min_of_number_06.03.2022/homework_min_of_number_06.03.2022.iml" filepath="$PROJECT_DIR$/homework_min_of_number_06.03.2022/homework_min_of_number_06.03.2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework_task1_task2_task4_29.03.2022/homework_task1_task2_task4_29.03.2022.iml" filepath="$PROJECT_DIR$/homework_task1_task2_task4_29.03.2022/homework_task1_task2_task4_29.03.2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework_task3_sumOfALlInteger_29.03.2022/homework_task3_sumOfALlInteger_29.03.2022.iml" filepath="$PROJECT_DIR$/homework_task3_sumOfALlInteger_29.03.2022/homework_task3_sumOfALlInteger_29.03.2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/how_Many_Words_15.04.2022/how_Many_Words_15.04.2022.iml" filepath="$PROJECT_DIR$/how_Many_Words_15.04.2022/how_Many_Words_15.04.2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/klammer_problem_16.04-2022/klammer_problem_16.04-2022.iml" filepath="$PROJECT_DIR$/klammer_problem_16.04-2022/klammer_problem_16.04-2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linear_equation_one_variable/linear_equation_one_variable.iml" filepath="$PROJECT_DIR$/linear_equation_one_variable/linear_equation_one_variable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/method_length_29.03.2022/method_length_29.03.2022.iml" filepath="$PROJECT_DIR$/method_length_29.03.2022/method_length_29.03.2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/method_string_startIndex_endIndex/method_string_startIndex_endIndex.iml" filepath="$PROJECT_DIR$/method_string_startIndex_endIndex/method_string_startIndex_endIndex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mixString/mixString.iml" filepath="$PROJECT_DIR$/mixString/mixString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/name_and_age_of_oldest_person/name_and_age_of_oldest_person.iml" filepath="$PROJECT_DIR$/name_and_age_of_oldest_person/name_and_age_of_oldest_person.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oldestPerson/oldestPerson.iml" filepath="$PROJECT_DIR$/oldestPerson/oldestPerson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/palindrome_17.04.2022/palindrome_17.04.2022.iml" filepath="$PROJECT_DIR$/palindrome_17.04.2022/palindrome_17.04.2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phrase_polindrome/phrase_polindrome.iml" filepath="$PROJECT_DIR$/phrase_polindrome/phrase_polindrome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/print_first_word_homework_29.03.2022/print_first_word_homework_29.03.2022.iml" filepath="$PROJECT_DIR$/print_first_word_homework_29.03.2022/print_first_word_homework_29.03.2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quadratic_formula_homework_jana/quadratic_formula_homework_jana.iml" filepath="$PROJECT_DIR$/quadratic_formula_homework_jana/quadratic_formula_homework_jana.iml" />
+      <module fileurl="file://$PROJECT_DIR$/second_character_17.04.2022/second_character_17.04.2022.iml" filepath="$PROJECT_DIR$/second_character_17.04.2022/second_character_17.04.2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/short_wort_of array/short_wort_of array.iml" filepath="$PROJECT_DIR$/short_wort_of array/short_wort_of array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/string_repet_manytime/string_repet_manytime.iml" filepath="$PROJECT_DIR$/string_repet_manytime/string_repet_manytime.iml" />
+    </modules>
+  </component>
+</project>
