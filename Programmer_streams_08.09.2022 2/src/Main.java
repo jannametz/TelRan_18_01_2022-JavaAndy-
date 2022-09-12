@@ -19,7 +19,7 @@ public class Main {
         Task task5 = new Task(5, "class diagram modeling ", "in Prozess", 90);
         Task task6 = new Task(6, "testing -> bags", "gemacht", 7);
 
-        List<Programmer> programmerall = List.of(
+        List<Programmer> programmerAll = List.of(
                 new Programmer("Jack", "Berlin", List.of(task2)),
                 new Programmer("Aleschka", "California", List.of(task4)),
                 new Programmer("Marie", "New York", List.of(task1)),
@@ -29,11 +29,9 @@ public class Main {
                 new Programmer("Philip", "Madrid", List.of(task6)));
 
 
-        System.out.println(programmerWorkedMoreThat5Day(programmerall, 5));
-        System.out.println(AufgabeInProzess(programmerall));
-        //System.out.println(taskAndDaysInProcess(programmers));
-        // System.out.println(sortedListMoreThan500(list, 500));
-        System.out.println(firstNFibonacciNum(9));
+        System.out.println(programmerWorkedMoreThat5Day(programmerAll, 5));
+        System.out.println(AufgabeInProzess(programmerAll));
+        System.out.println(fNFibonacciNum(9));
     }
 
 
@@ -63,12 +61,15 @@ public class Main {
                 .collect(Collectors.toList());
     }
 
-    //Используя стримы, сформировать список из первых N чисел Fibonacci
-    public static List<Integer> firstNFibonacciNum(int quantity) {
+    //Используя стримы, сформировать список из первых N чисел Fibonacci.
+    //I have used exemplar of this page.
+    //https://www.anycodings.com/1questions/4026919/how-to-fetch-fibonacci-series-of-1-to-100-using-java-streams-and-add-it-into-a-map
+
+    public static List<Integer> fNFibonacciNum(int nfibonacci) {
+        ////Generate a stream of arrays like this {0,1}, {1, 1}
         return Stream.iterate(new int[]{0, 1}, s -> new int[]{s[1], s[0] + s[1]})
                 .limit(9)
                 .map(s -> s[0])//gets each array, returning the first number from them, like 0 1 1 2 3
                 .collect(Collectors.toList());
-
     }
 }

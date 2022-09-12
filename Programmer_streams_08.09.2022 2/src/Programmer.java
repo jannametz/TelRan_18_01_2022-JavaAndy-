@@ -6,10 +6,10 @@ public class Programmer {
     private String city;
     private List<Task> task;
 
-    public Programmer(String name, String city, List<Task> tasks) {
+    public Programmer(String name, String city, List<Task> task) {
         this.name = name;
         this.city = city;
-        this.task = tasks;
+        this.task = task;
     }
 
     public String getName() {
@@ -21,11 +21,13 @@ public class Programmer {
     }
 
     public List<Task> getTasks() {
+
         return task;
     }
 
     @Override
     public String toString() {
+
         return city + " " + name + " " + task;
     }
 
