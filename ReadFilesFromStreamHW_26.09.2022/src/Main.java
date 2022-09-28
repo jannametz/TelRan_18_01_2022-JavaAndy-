@@ -31,6 +31,7 @@ public class Main {
         String contents = Files.readString(Paths.get("/Users/janametz/myProjects/ReadFilesFromStreamHW_26.09.2022/src/readAllTextFileLinie"));
         System.out.println(countWort(contents));
         System.out.println(uniqueWordCount(contents));
+        System.out.println(countWord(contents));
 
     }
 
@@ -90,16 +91,27 @@ public class Main {
     */
 
     public static long uniqueWordCount(String s) {
-        long count_unique = Stream.of(s.split("^[A-Za-z_.]+$/"))
+        long count_unique = Stream.of(s.split("\\s+|(?<=[a-z])(?=[a-z])"))
                 .distinct()
                 .count();
         return count_unique;
     }
 
     public static long countWort(String s) {
-        long count = Stream.of(s.split("^A-Za-z_./"))
+        long count = Stream.of(s.split("\\s+|(?<=[a-z])(?=[a-z])"))
                 .count();
         return count;
+    }
+
+    /*
+    Есть стринга
+    14:13 Uhr
+    Нужно вывести каждое слово и количество его повторений одним стримом
+    */
+    public static Map<String, Integer> countWord(String s) {
+        Map<String, Integer> m = Stream.of(s.split("\\s+|(?<=[a-z])(?=[a-z])"))
+                .collect(Collectors.toMap(e -> e, e -> 1, (e1, e2) -> e1 + 1));
+        return m;
     }
 
 }
