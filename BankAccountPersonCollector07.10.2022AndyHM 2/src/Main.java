@@ -18,14 +18,10 @@ public class Main {
         Person p3 = new Person("Armando");
 
         List<BankAccountWithOwner> allBankAccounts =
-                List.of(new BankAccountWithOwner(p2, "DE35 9039 2434 912 09980"),
-                (new BankAccountWithOwner(p1, "DE35 9039 2434 912 09981")),
+                List.of(new BankAccountWithOwner(p1, "DE35 9039 2434 912 09980"),
+                (new BankAccountWithOwner(p2, "DE35 9039 2434 912 09981")),
                 (new BankAccountWithOwner(p3, "DDE35 9039 2434 912 09989")));
-
-
         System.out.println(getPersonsWithBankAccountList(allBankAccounts));
-
-
     }
 
     public static List<PersonWithBankAccounts> getPersonsWithBankAccountList(List<BankAccountWithOwner> list) {
@@ -37,7 +33,6 @@ public class Main {
                 .collect(Collectors.toList());
     }
 
-    //Collectors folgt.............later
 
 }
 
