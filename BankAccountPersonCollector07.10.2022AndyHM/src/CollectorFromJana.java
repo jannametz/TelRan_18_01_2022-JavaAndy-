@@ -6,7 +6,7 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collector;
 
-public class CollectorFromJana implements Collector<List<Object>, Map<String, List<String>>, List<Object>> {
+public class CollectorFromJana implements Collector<BankAccountWithOwner, Map<String, List<String>>, List<PersonWithBankAccounts>> {
 
     @Override
     public Supplier<Map<String, List<String>>> supplier() {
@@ -14,8 +14,12 @@ public class CollectorFromJana implements Collector<List<Object>, Map<String, Li
     }
 
     @Override
-    public BiConsumer<Map<String, List<String>>, List<Object>> accumulator() {
-        return null;
+    public BiConsumer<Map<String, List<String>>, BankAccountWithOwner> accumulator() {
+        return (map, o)-> {
+            List<String> l = new LinkedList<>();
+            l.add(o.getIban());
+            map.put(o.getOwners().toString(), l);
+        };
     }
 
     @Override
@@ -24,7 +28,7 @@ public class CollectorFromJana implements Collector<List<Object>, Map<String, Li
     }
 
     @Override
-    public Function<Map<String, List<String>>, List<Object>> finisher() {
+    public Function<Map<String, List<String>>, List<PersonWithBankAccounts>> finisher() {
         return null;
     }
 
